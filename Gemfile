@@ -47,6 +47,10 @@ group :development do
   gem 'spring'
 end
 
+####
+gem 'bootstrap-sass'
+####
+
 
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
 
