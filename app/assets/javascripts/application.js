@@ -15,3 +15,4 @@
 //= require turbolinks
 //xxxxxxxxxxxxx require_tree .
 //= require bootstrap-sprockets
+//= require mouseover_menu
