@@ -1,0 +1,15 @@
+<%# render '/refinery/content_page' %>
+<div class="container-fluid">
+ <div class="row">
+
+		<section id='side_body' class='col-md-2'>
+		  <%=raw @page.content_for(:side_body) %>
+		</section>
+
+		<section id='body' class='col-md-10'>
+		  <%=raw @page.content_for(:body) %>
+		</section>
+
+	</div>
+</div>	
+

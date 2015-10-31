@@ -23,7 +23,7 @@
             return;
         }
         
-    if (theElement.hasClass('open')) return;
+    if (!theElement || theElement.hasClass('open')) return;
     window.clearTimeout(theTimer);
     theTimer = window.setTimeout(function () {
       theElement.addClass('open');

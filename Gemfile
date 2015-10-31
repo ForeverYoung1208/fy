@@ -54,6 +54,8 @@ gem 'bootstrap-sass'
 
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
 
+gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
+
 gem 'quiet_assets', group: :development
 
 # Add support for searching inside Refinery's admin interface.
